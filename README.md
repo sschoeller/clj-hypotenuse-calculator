@@ -1,10 +1,10 @@
-# sschollerstem.pythagorean
+# sschoellerstem.pythagorean
 
 A Clojure library designed to calculate the hypotenuse of a right triangle
 
 ## Usage
 
-FIXME
+Invoke sschoellerstem.pythagorean.Main and type sides (as floats) as you are prompted
 
 ## License
 
