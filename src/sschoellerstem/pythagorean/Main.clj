@@ -1,7 +1,7 @@
-;;******************************************************
-;; Developer: Scott Schoeller (sschoellerSTEM)
+;;****************************************************************
+;; Original Developer: Scott Schoeller (sschoellerSTEM); (C) 2018
 ;; License: Eclipse Public License - see "LICENSE" file
-;;******************************************************
+;;****************************************************************
 (ns sschoellerstem.pythagorean.Main
   (:gen-class))
 
