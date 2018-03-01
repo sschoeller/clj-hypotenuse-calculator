@@ -7,11 +7,9 @@
 
 (defn calculate- [a b]
   "Pythagorean Theorem Calculator"
-  
-  (* a a)  
-  (* b b)
-  
-  (Math/sqrt (+ a b))
+  (print "\nThe length of the hypotenuse is: ")
+  (Math/sqrt (+ (* a a) (* b b))
+  )
 
 )
 
@@ -19,14 +17,17 @@
   "Main"
   
   (println "Enter the length of the first side: ")  
-  (def a (float (read-string (read-line))))
+  (def a (float (read-string (read-line)))
+    )
   
   (println "Enter the length of the second side: ")  
-  (def b (float (read-string (read-line))))
+  (def b (float (read-string (read-line)))
+  )
   
-  ;; TODO sides <= 0 can't form a valid right triangle
-  (print "\nThe length of the hypotenuse is: ")  
-  (calculate- a b)
+  (if (and (> a 0.0) (> b 0.0))  
+      (calculate- a b)
+      (print "Invalid side(s)!")
+  )
 )
 
 (-main)
