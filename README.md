@@ -10,5 +10,5 @@ Invoke sschoellerstem.pythagorean.Main and type sides (as floats) as you are pro
 
 Copyright © 2018 Scott Schoeller
 
-Distributed under the Eclipse Public License either version 1.0 or (at
+Distributed under the Eclipse Public License either version 2.0 or (at
 your option) any later version.
