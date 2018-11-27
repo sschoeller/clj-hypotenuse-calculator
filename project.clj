@@ -2,5 +2,5 @@
   :description "Calculates the hypotenuse of a right traingle given two sides"
   :url "https://www.github.com/sschoellerSTEM/clj-hypotenuse-calculator"
   :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+            :url "https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]])
